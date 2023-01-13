@@ -1,7 +1,7 @@
 CREATE DATABASE users;
 \c user;
 
-CREATE TABLE user (id SERIAL, nombre VARCHAR(50), email VARCHAR(50));
+CREATE TABLE users (id SERIAL, nombre VARCHAR(50), email VARCHAR(50));
 
 
 INSERT INTO users values

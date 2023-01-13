@@ -17,3 +17,5 @@ entrar al proyecto pinchar en variables
 agregar variables de entorno base de datos al proyecto
 
 agregar script a package,json  "start": "node app.js",
+
+en railway ir a settings i pinchar en generate domain  test-railway-deploy-production.up.railway.app
