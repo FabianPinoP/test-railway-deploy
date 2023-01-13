@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "npm run dev",
-    "start": "node server.js",
+    "start": "node app.js",
     "dev": "node --watch ./app.js"
   },
   "author": "",
