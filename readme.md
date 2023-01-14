@@ -1,5 +1,13 @@
 pasos para deploy
 
+preparar proyecto para pasar a produccion 
+
+-configurar variables de entorno en el proyecto
+-no olvidar agregar puerto de produccion en el server
+-agregar script a package,json  "start": "node app.js",
+
+
+en railway 
 logearse con git hub
 
 ir a nuevo proyecto
@@ -10,12 +18,17 @@ pinchar en "Only select repositories"
 
 seleccionar el repo a deployar
 
-configurar variables de entorno en el proyecto
-
 crear proyecto postgres en railway
+
 entrar al proyecto pinchar en variables
+
 agregar variables de entorno base de datos al proyecto
 
-agregar script a package,json  "start": "node app.js",
+en railway ir a settings i pinchar en generate domain  
 
-en railway ir a settings i pinchar en generate domain  test-railway-deploy-production.up.railway.app
+test-railway-deploy-production.up.railway.app // no funciona por que no esta creada la raiz
+
+end points de prueba 
+
+-test-railway-deploy-production.up.railway.app/users
+-test-railway-deploy-production.up.railway.app/user/1
